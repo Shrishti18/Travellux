@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travellex</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png"alt="logo">
+        </div>
+        <div class="navbar">
+            <a href="#home">Home </a>
+            <a href="#about">About</a>
+            <a href="#features">Featured</a>
+            <a href="#news">News</a>
+            <a href="#contacts">Contacts</a>
+        </div>
+        <div class="btn-navbar">
+            <a href="form.xhtml">
+                <button class="register"  >Register</button>
+            </a>
+            
+    
+        </div>
+    </header> 
+    <section>
+        <div class="home-para1" id="home">
+            <div class="home-para1-left">
+                <div class="home-para1-writtenpart">
+                    <h1>Explore  your </h1>
+                    <h2 onmouseover="mOver(this)" onmouseout="mOut(this)">New Destination</h2>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi minus iusto sequi molestias?</p>
+
+                </div>
+                <div class="home-para1-buttons">
+                    <button onclick="click(this)" class="home-para1-button1">Lets Explore</button>
+                </div>
+            </div>
+            <div class="home-para1-picture">
+                <img src="home.png">
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="about" id="about">
+            <div class="about-img">
+                <img name="slide" src="about.png">
+            </div>
+            <div class="about-written">
+                <h2>Why choose us?</h2>
+                <div class="about-written-first">
+                    <div class="about-written-firstimg">
+                        <svg height="100" width="100">
+                            <circle cx="50" cy="50" r="40"/>
+                          </svg>
+                        <img src="geography.png">
+                    </div>
+                    <div class="about-written-first-written">
+                        <h2>World Wide Connect</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing  quia? impedit! Tempora.</p>
+                        
+                    </div>
+                </div>
+                <div class="about-written-second">
+                    <div class="about-written-secondimg">
+                        <svg height="100" width="100">
+                            <circle cx="50" cy="50" r="40"/>
+                          </svg>
+                        <img src="tour-guide.png">
+                    </div>
+                    <div class="about-written-second-written">
+                        <h2>Expert Tour Guide</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit quaerat impedit! Tempora.</p>
+                        
+                    </div>
+                </div>
+                <div class="about-written-third">
+                    <div class="about-written-thirdimg">
+                        <svg height="100" width="100">
+                            <circle cx="50" cy="50" r="40"/>
+                          </svg>
+                        <img src="price-tag.png">
+                    </div>
+                    <div class="about-written-third-written">
+                        <h2>A Lot of Discout</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur tia nobis quia? Reiciendis  Tempora.</p>
+                        
+                    </div>
+                </div>
+
+               
+            </div>
+        </div>
+    </section>
+    <section  class="features" id="features">
+        <h1>Featured Destination</h1>
+        <p class="mainp-features">Click on one price tag to get a SURPRIZING discount</p>
+        <div  class="about-us-cards" id ="about-us-cards">
+           <div class="about-us-card1">
+                <div class="col-md-4">
+                    <div class="feature-box" >
+                         <div class="feature-img img1">
+                            <img src="mountains.jpg">
+                            <div  class="price">
+                                <p onmouseover="turkeyFunc(this)" >78$</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p >
+                        <div class="feature-details feature1" ><h4>TURKEY</h4>
+                            <p id="discounttext" class="discount"></p>
+                            <i >Los Angeles</i>
+                            <i>4 days</i>
+                            <i >3 Night</i>
+                        
+                    </div>
+                    </p>
+                    
+                </div>
+            </div>
+            <div class="about-us-card2">
+                <div class="col-md-4">
+                    <div class="feature-box" >
+                        <div class="feature-img">
+                            <img src="beach.jpg">
+                            <div class="price">
+                                <p>78$</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feature-details"><h4>TURKEY</h4>
+                        
+                            <i >Los Angeles</i>
+                            <i>4 days</i>
+                            <i >3 Night</i>
+                            <p class="height">RATE YOUR EXPERIENCE!</p>
+                            <div class="stars1" data-rating="3">
+                                <span class="star1">&nbsp;</span>
+                                <span class="star1">&nbsp;</span>
+                                <span class="star1">&nbsp;</span>
+                                <span class="star1">&nbsp;</span>
+                                <span class="star1">&nbsp;</span>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="about-us-card3">
+                <div class="col-md-4">
+                    <div class="feature-box" >
+                        <div class="feature-img">
+                            <img src="newyork.jpg">
+                            <div class="price">
+                                <p>78$</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feature-details"><h4>TURKEY</h4>
+                        
+                            <i >Los Angeles</i>
+                            <i>4 days</i>
+                            <i >3 Night</i>
+                            
+                        
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </section>
+    <section class="news">
+      <div class="banner-highlights" id="news">
+              <div class="new-write">
+                  <h1>Sign up for weekly Newsletter</h1>
+                  <input type="text" onfocus="inputemail(this)" placeholder="Enter Your Email">
+                  <input type="button" value="Subscribe">
+                </div>
+                  <div class="new-img"><img src="back2.png" height="350px"></div>
+          </div>
+      </div>
+
+    </section>
+    
+        
+         <footer>
+            <div class="footer" id="footer">
+                <div class="footer-column1">
+                    <img src="logo.png">
+    
+                </div>
+                <div class="footer-column2">
+                    <h2>PRODUCT</h2>
+                    <a href="#about">Inspiration</a><br>
+                    <a href="#contact">Blogs</a><br>
+                    <a href="#blog">Templates</a><br>
+                    <a href="#carrer">Universe</a>
+                </div>
+                <div class="footer-column3">
+                    <h2>COMPANY</h2>
+                    <a href="#about">About</a><br>
+                    <a href="#contact">Contacts</a><br>
+                    <a href="#blog">Blog</a><br>
+                    <a href="#carrer">Career</a>
+                    
+                </div>
+                <div class="footer-column4">
+                    <h2>CONTACT US</h2>
+                    <a href="#about">travell20@gmail.com</a><br>
+                    <a href="#contact">987654321</a>
+                </div>
+            </div>
+        </footer>
+</body> 
+</html>
